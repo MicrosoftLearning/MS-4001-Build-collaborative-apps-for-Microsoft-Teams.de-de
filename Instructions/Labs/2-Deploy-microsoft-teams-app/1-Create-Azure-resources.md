@@ -12,11 +12,11 @@ In dieser Übung werden Sie zunächst eine Teams-Registerkarten-App mithilfe des
 
 1. Wählen Sie in den Optionen **Registerkarte** aus.
 
-    :::image type="content" source="../../media/create-teams-tab-app.png" alt-text="Screenshot: Teams-Toolkit-Option für Registerkarten-App.":::
+    ![Screenshot: Teams-Toolkit-Option für Registerkarten-App.](../../media/create-teams-tab-app.png)
 
 1. Wählen Sie als Nächstes die Option **React mit Fluent UI** aus.
 
-    :::image type="content" source="../../media/create-teams-tab-react.png" alt-text="Screenshot der Appvorlage des Teams-Toolkits mit ausgewählter Registerkarte.":::
+    ![Screenshot der Appvorlage des Teams-Toolkits mit ausgewählter Registerkarte.](../../media/create-teams-tab-react.png)
 
 1. Wählen Sie in den Optionen für die Programmiersprache **JavaScript** aus.
 
@@ -26,7 +26,7 @@ In dieser Übung werden Sie zunächst eine Teams-Registerkarten-App mithilfe des
 
 1. Der Aufbau des Projektgerüsts beginnt. Wenn das Projektgerüst erstellt wurde, wird ein neues Visual Studio Code-Fenster geöffnet, in dem das neue Projekt geladen ist.
 
-    :::image type="content" source="../../media/new-tab-project.png" alt-text="Screenshot: Neues Registerkarten-Projekt in Teams-Toolkit nach der Erstellung des Projektgerüsts.":::
+    ![Screenshot: Neues Registerkarten-Projekt in Teams-Toolkit nach der Erstellung des Projektgerüsts.](../../media/new-tab-project.png)
 
 1. Wählen Sie in Visual Studio Code **Ausführen > Debuggen starten** aus oder drücken Sie die Taste **F5**, um die Debuggingsitzung zu starten.
 
@@ -38,15 +38,17 @@ In dieser Übung werden Sie zunächst eine Teams-Registerkarten-App mithilfe des
 
 ## Aufgabe 2: Anmelden bei Azure im Teams-Toolkit
 
+Melden Sie sich mit dem Konto Ihres **Azure-Abonnements** bei Azure an.
+
 1. Wählen Sie auf der Aktivitätsleiste das Symbol **Microsoft Teams** aus.
 
 1. Wählen Sie im Bereich „Teams-Toolkit“ unter **Konten** die Option **Bei Azure anmelden** aus.
 
-    :::image type="content" source="../../media/sign-into-azure.png" alt-text="Screenshot: Bereich „Teams-Toolkit“ mit der Schaltfläche zum Anmelden bei Azure.":::
+    ![Screenshot: Bereich „Teams-Toolkit“ mit der Schaltfläche zum Anmelden bei Azure.](../../media/sign-into-azure.png)
 
 1. Wählen Sie im angezeigten Dialogfeld die Option **Anmelden** aus.
 
-    :::image type="content" source="../../media/sign-into-azure-alert.png" alt-text="Screenshot: Dialogfeld zur Bestätigung der Anmeldung bei Azure.":::
+    ![Screenshot: Dialogfeld zur Bestätigung der Anmeldung bei Azure.](../../media/sign-into-azure-alert.png)
 
 ## Aufgabe 3: Bereitstellen der Ressourcen
 
@@ -54,11 +56,11 @@ Jetzt können Sie die Ressourcen bereitstellen, die für Ihre Teams-Registerkart
 
 1. Wählen Sie im Bereich „Teams-Toolkit“ unter **Lebenszyklus** die Option **Bereitstellen** aus.
 
-    :::image type="content" source="../../media/provision-start.png" alt-text="Screenshot: Hervorgehobene Option für die Bereitstellung in der Cloud im Bereich „Bereitstellung“.":::
+    ![Screenshot: Hervorgehobene Option für die Bereitstellung in der Cloud im Bereich „Bereitstellung“.](../../media/provision-start.png)
 
 1. Als Nächstes müssen Sie eine Ressourcengruppe auswählen, in der Sie die Ressourcen bereitstellen können. Oder Sie erstellen eine neue Ressourcengruppe, indem Sie im Menü **Ressourcengruppe auswählen** die Option **Neue Ressourcengruppe** auswählen.
 
-    :::image type="content" source="../../media/resource-group.png" alt-text="Screenshot, der zeigt, wie eine neue Ressourcengruppe erstellt wird.":::
+    ![Screenshot, der zeigt, wie eine neue Ressourcengruppe erstellt wird.](../../media/resource-group.png)
 
 1. Das Tool schlägt für die Ressourcengruppe automatisch einen Namen wie „rg-hello-tab0989fd-dev“ vor. Drücken Sie die **EINGABETASTE**.
 
@@ -66,7 +68,7 @@ Jetzt können Sie die Ressourcen bereitstellen, die für Ihre Teams-Registerkart
 
 1. Daraufhin wird ein Dialogfeld angezeigt, in dem Sie Ihre Auswahl bestätigen müssen. Wählen Sie hier **Bereitstellen** aus.
 
-    :::image type="content" source="../../media/provision-confirm.png" alt-text="Screenshot: Dialogfeld zum Bestätigen der Bereitstellung.":::
+    ![Screenshot: Dialogfeld zum Bestätigen der Bereitstellung.](../../media/provision-confirm.png)
 
 1. Die Bereitstellung beginnt für alle Ressourcen, die Sie zum Hosten der Teams-Registerkarten-App in Azure benötigen. Die Bereitstellung kann eine Weile dauern.
 
