@@ -8,15 +8,15 @@ In dieser Übung stellen Sie den Quellcode für Ihre bereitgestellten Azure-Ress
 
 2. Wählen Sie im Panel „Teams-Toolkit“ unter **Lebenszyklus** **Bereitstellen** aus.
 
-    :::image type="content" source="../media/deploy-button.png" alt-text="Screenshot der hervorgehobenen Bereitstellung auf dem Cloudlink":::
+    ![Screenshot der hervorgehobenen Bereitstellung auf dem Cloudlink](../../media/deploy-button.png)
 
 3. Wählen Sie im Bestätigungsdialogfeld der Bereitstellung **Bereitstellen** aus.
 
-    :::image type="content" source="../media/deploy-confirm.png" alt-text="Screenshot eines Dialogfelds, um die Bereitstellung zu bestätigen":::
+    ![Screenshot eines Dialogfelds, um die Bereitstellung zu bestätigen](../../media/deploy-confirm.png).
 
 4. Überprüfen Sie, ob die Bereitstellung im Visual Studio Code-Editor erfolgreich durchgeführt wurde.
 
-    :::image type="content" source="../media/deploy-success.png" alt-text="Screenshot, der zeigt, dass die Bereitstellung erfolgreich war":::
+    ![Screenshot, der zeigt, dass die Bereitstellung erfolgreich war](../../media/deploy-success.png)
 
 Der Code für die Teams-Registerkarten-App wird erfolgreich in Azure Storage gehostet und kann in Teams veröffentlicht werden.
 

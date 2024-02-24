@@ -85,16 +85,12 @@ Führen Sie Ihre App im Debugmodus aus, um die Funktionalität zu testen.
 
 1. Wählen Sie in Visual Studio Code das Symbol für **Microsoft Teams** aus, um den Bereich **TEAMS-TOOLKIT** zu öffnen.
 
-2. Wenn Sie nicht bei Azure im Teams-Toolkit angemeldet sind: Wählen Sie im Abschnitt **KONTEN** die Option **Bei Azure anmelden** aus. Wählen Sie im daraufhin geöffneten Dialogfeld die Schaltfläche **Anmelden** aus, und geben Sie Ihre Microsoft 365-Anmeldeinformationen ein.
-
-   Das Teams-Toolkit erfordert ein Geschäfts-, Schul- oder Unikonto für Microsoft 365 mit Berechtigungen vom Typ „Globaler Administrator“.
-
-3. Starten Sie die Ausführung Ihrer App mit dem angefügten Debugger. Verwenden Sie dazu eine der folgenden Methoden:
+2. Starten Sie die Ausführung Ihrer App mit dem angefügten Debugger. Verwenden Sie dazu eine der folgenden Methoden:
 
    - Drücken Sie die Taste F5.
-   - Wählen Sie in Visual Studio Code **Ausführen** > **Debuggen starten** aus.
+   - Navigieren Sie in Visual Studio Code zum Menü **Ausführen und Debuggen**.  Wählen Sie **Debuggen in Teams** mit der von Ihnen gewünschten Browseroption und dann die Schaltfläche **Debuggen starten** aus.
    - Öffnen Sie im Abschnitt **UMGEBUNG** des Teams-Toolkits den Ordner *local*, und wählen Sie dann den gewünschten Browser aus.
 
-4. Nachdem Visual Studio Code einige Überprüfungen durchgeführt hat, deren Aktionen auf der Registerkarte **Konsole** angezeigt werden, wird ein neues Browserfenster geöffnet. Wählen Sie im Dialogfeld **UserInfoApp** die Schaltfläche **Hinzufügen** aus, um die App zur Vorschau in Teams zu installieren.
+3. Nachdem Visual Studio Code einige Überprüfungen durchgeführt hat, deren Aktionen auf der Registerkarte **Konsole** angezeigt werden, wird ein neues Browserfenster geöffnet. Wählen Sie im Dialogfeld **UserInfoApp** die Schaltfläche **Hinzufügen** aus, um die App zur Vorschau in Teams zu installieren.
 
 Die App kann jetzt auf der Seitenleiste angezeigt werden. Die App ist mit zwei Registerkarten vorkonfiguriert: **Persönliche Registerkarte** und **Info**. Stellen Sie sicher, dass der Gebietsschemacode auf der Registerkarte angezeigt wird.
