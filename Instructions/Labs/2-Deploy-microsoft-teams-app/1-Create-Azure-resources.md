@@ -2,7 +2,7 @@
 
 In dieser Übung werden Sie zunächst eine Teams-Registerkarten-App mithilfe des Teams-Toolkits für Visual Studio Code erstellen und bereitstellen. In einer späteren Übung richten Sie die App so ein, dass sie in Azure gehostet wird.
 
-**Hinweis:**  Für die Übungen in diesem Trainingsmodul wird das Teams-Toolkit V5.0.0 verwendet. Bei den folgenden Schritten wird davon ausgegangen, dass die Teams-Toolkit-Erweiterung installiert ist.
+**Hinweis:**  Für die Übungen in diesem Trainingsmodul wird das Teams-Toolkit V5.6.0 verwendet. Bei den folgenden Schritten wird davon ausgegangen, dass die Teams-Toolkit-Erweiterung installiert ist.
 
 ## Aufgabe 1: Erstellen einer neuen Registerkarten-App
 

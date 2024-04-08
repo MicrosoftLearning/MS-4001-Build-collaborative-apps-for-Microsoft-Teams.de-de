@@ -10,7 +10,7 @@ In dieser Übung führen Sie die Teams-App lokal aus.
 
 2. Wählen Sie **Anmelden** im Popup-Dialogfeld aus. Sie werden zu einem Browser weitergeleitet, um sich mit den **Anmeldeinformationen für Ihr Microsoft 365-Konto** anzumelden.  Geben Sie Ihre Administratoranmeldeinformationen ein.
 
-3. Wenn Sie erfolgreich angemeldet wurden, schließen Sie den Browser und kehren Sie zu Visual Studio Code zurück. Unter Ihrem Konto im Teams-Toolkit wird die Meldung *Querladen aktiviert* angezeigt, um darauf hinzuweisen, dass Ihr Mandant korrekt konfiguriert ist.
+3. Wenn Sie erfolgreich angemeldet wurden, schließen Sie den Browser und kehren Sie zu Visual Studio Code zurück. Unter Ihrem Konto im Teams-Toolkit wird die Meldung **Hochladen einer benutzerdefinierten App aktivieren** angezeigt, um darauf hinzuweisen, dass Ihr Mandant korrekt konfiguriert ist.
 
     ![Screenshot: Hinweis für aktiviertes Querladen im Teams-Toolkit.](../../media/sideload-enabled.png)
 
@@ -24,7 +24,7 @@ Jetzt führen Sie das Projekt aus, um zu sehen, wie es in Microsoft Teams aussie
 4. Als Nächstes wird Microsoft Teams vom Teams-Toolkit in Ihrem ausgewählten Browser geöffnet.
 5. Melden Sie sich mit dem gleichen **Microsoft 365**-Konto an, mit dem Sie sich beim Teams-Toolkit angemeldet haben.
 6. Dann zeigt Teams eine Option zum Installieren Ihrer App an. Wählen Sie **Hinzufügen** aus, um eine Vorschau der App anzuzeigen.
-7. Bei der Vorschau wird *local-debug* an den Namen Ihrer App angehängt. Mit diesem Suffix wird darauf hingewiesen, dass die App lokal ausgeführt wird und nicht bereitgestellt wurde.
+7. Bei der Vorschau wird *local* an den Namen Ihrer App angehängt. Mit diesem Suffix wird darauf hingewiesen, dass die App lokal ausgeführt wird und nicht bereitgestellt wurde.
 
     ![Screenshot: Dialogfeld zum Installieren einer Teams-App.](../../media/add-teams-app.png)
 

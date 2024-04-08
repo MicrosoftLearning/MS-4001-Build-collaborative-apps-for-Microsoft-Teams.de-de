@@ -52,8 +52,8 @@ Das Gerüst für die Nachrichtenerweiterungs-App wurde mit dem Teams-Toolkit ers
 | `.vscode/` | VSCode-Dateien für das lokale Debuggen. |
 | `appPackage/` | Die App-Paketdateien, darunter das Manifest der Teams-App. |
 | `infra/` | Vorlagen für die Bereitstellung von Azure-Ressourcen. |
-| `index.js` | Einstiegspunkt und `restify`-Handler der Anwendung. |
-| `teamsBot.js` | Teams-Aktivitätshandler.  |
+| `index.ts` | Einstiegspunkt und `restify`-Handler der Anwendung. |
+| `teamsBot.ts` | Teams-Aktivitätshandler.  |
 
 ## Aufgabe 2: Vervollständigen der Suchfunktion
 
@@ -74,7 +74,7 @@ In der Lösung fehlt der API-Pfad für die Graph-Abfrage, die die Suchzeichenfol
 
       `// Use the Graph API to search for users by their display name.`
 
-2. Ersetzen Sie in der nächsten Codezeile `path` durch den folgenden API-Pfad:
+2. Ersetzen Sie in der nächsten Codezeile `PATH` durch den folgenden API-Pfad:
 
      ```TypeScript
      /users?$search="displayName:${searchQuery}"&$count=true
@@ -104,7 +104,7 @@ Verwenden Sie als Nächstes das Teams-Toolkit, um die für die Nachrichtenerweit
 
 1. Melden Sie sich beim Azure-Portal bei [portal.azure.com](portal.azure.com) mit Ihrem **Microsoft 365**-Administratorkonto an.
 2. Navigieren Sie im linken Navigationsmenü zu **Microsoft Entra ID**.
-3. Navigieren Sie zu **Verwalten > App-Registrierungen > Alle Registrierungen**.
+3. Navigieren Sie zu **Verwalten > App-Registrierungen > Alle Anwendungen**.
 4. Wählen Sie die App-Registrierung **ContactDetails** aus, die während der Bereitstellung erstellt wurde.
 5. Navigieren Sie zu **Verwalten > API-Berechtigungen**.
 6. Wählen Sie **+ Berechtigung hinzufügen** aus.
