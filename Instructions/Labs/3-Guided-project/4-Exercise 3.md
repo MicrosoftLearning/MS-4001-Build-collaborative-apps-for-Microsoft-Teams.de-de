@@ -91,6 +91,6 @@ Führen Sie Ihre App im Debugmodus aus, um die Funktionalität zu testen.
    - Navigieren Sie in Visual Studio Code zum Menü **Ausführen und Debuggen**.  Wählen Sie **Debuggen in Teams** mit der von Ihnen gewünschten Browseroption und dann die Schaltfläche **Debuggen starten** aus.
    - Öffnen Sie im Abschnitt **UMGEBUNG** des Teams-Toolkits den Ordner *local*, und wählen Sie dann den gewünschten Browser aus.
 
-3. Nachdem Visual Studio Code einige Überprüfungen durchgeführt hat, deren Aktionen auf der Registerkarte **Konsole** angezeigt werden, wird ein neues Browserfenster geöffnet. Wählen Sie im Dialogfeld **UserInfoApp** die Schaltfläche **Hinzufügen** aus, um die App zur Vorschau in Teams zu installieren.
+3. Nachdem Visual Studio Code einige Überprüfungen durchgeführt hat, deren Aktionen auf der Registerkarte **Konsole** angezeigt werden, wird ein neues Browserfenster geöffnet. Wählen Sie im Dialogfeld **UserInfoApplocal** die Schaltfläche **Hinzufügen**, um die App in Teams zur Vorschau zu installieren.
 
 Die App kann jetzt auf der Seitenleiste angezeigt werden. Die App ist mit zwei Registerkarten vorkonfiguriert: **Persönliche Registerkarte** und **Info**. Stellen Sie sicher, dass der Gebietsschemacode auf der Registerkarte angezeigt wird.
