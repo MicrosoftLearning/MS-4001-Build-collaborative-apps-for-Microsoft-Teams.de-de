@@ -157,7 +157,7 @@ Jeder neue Befehl muss in `ConversationBot`konfiguriert werden, wodurch der Unte
 2. Fügen Sie in Zeile 2 die folgende import-Anweisung hinzu:
 
     `import { ResetPasswordCommandHandler } from "../resetPasswordCommandHandler";`
-3. Fügen Sie in Zeile 20 dem `commands`-Array der `command`-Eigenschaft eine Anweisung zum Initialisieren des neuen Handlers hinzu. Das `new ResetPasswordCommandHandler().  The updated `command`-Objekt sollte folgendermaßen aussehen:
+3. Fügen Sie in Zeile 20 dem `commands`-Array der `command`-Eigenschaft eine Anweisung zum Initialisieren des neuen Handlers hinzu. `new ResetPasswordCommandHandler()`  Das aktualisierte `command`-Objekt sollte wie folgt aussehen:
 
    ```json
    command: {    enabled: true,    commands: [new HelloWorldCommandHandler(), new ResetPasswordCommandHandler()],  },
