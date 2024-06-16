@@ -130,7 +130,6 @@ Verarbeiten Sie als Nächstes den Befehl im Quellcode des Bots mithilfe der `Tea
     import { AdaptiveCards } from "@microsoft/adaptivecards-tools";
     import rawResetPasswordCard from "./adaptiveCards/resetPassword.json";
    ```
-
 3. Fügen Sie unter den Importanweisungen den folgenden Code hinzu, um den Befehlshandler zu implementieren, und speichern Sie dann die Datei:
 
    ```typescript
@@ -260,6 +259,7 @@ Wenn Ihre Entwicklungsumgebung den Entwicklungstunnel des Teams-Toolkits nicht u
                     echo "::set-teamsfx-env BOT_DOMAIN=${endpoint:8}"
                 fi
      ```
+     
 ## Arbeit überprüfen
 
 Führen Sie Ihre App lokal aus, um die Funktionalität zu testen:

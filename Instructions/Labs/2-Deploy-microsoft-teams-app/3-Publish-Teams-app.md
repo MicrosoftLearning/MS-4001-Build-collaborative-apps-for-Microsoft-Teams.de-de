@@ -37,7 +37,7 @@ Nachdem Ihre App nun im Organisationsspeicher veröffentlicht wurde, öffnen Sie
 
 ## Aufgabe 2: Installieren der App aus dem Store
 
-1. Öffnen Sie den Microsoft Teams-Client, oder melden Sie sich online bei Microsoft Teams ([teams.microsoft.com](teams.microsoft.com)) mit Ihren **Microsoft 365-Mandantenanmeldeinformationen** an.
+1. Öffnen Sie den Microsoft Teams-Client, oder melden Sie sich online bei Microsoft Teams ([teams.microsoft.com](https://teams.microsoft.com/)) mit Ihren **Microsoft 365-Mandantenanmeldeinformationen** an.
 2. Wechseln Sie in Microsoft Teams zu **Apps**, um den Organisationsspeicher anzuzeigen. Wählen Sie unter **Für Ihre Organisation erstellt** die Kachel **hello-tabdev** aus.
 
     a. ![Screenshot: Organisationsspeicher mit hervorgehobener App „hello-tab“.](../../media/org-store.png)
