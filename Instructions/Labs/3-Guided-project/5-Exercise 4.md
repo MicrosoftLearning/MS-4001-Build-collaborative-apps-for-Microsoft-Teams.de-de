@@ -130,7 +130,6 @@ Verarbeiten Sie als Nächstes den Befehl im Quellcode des Bots mithilfe der `Tea
     import { AdaptiveCards } from "@microsoft/adaptivecards-tools";
     import rawResetPasswordCard from "./adaptiveCards/resetPassword.json";
    ```
-
 3. Fügen Sie unter den Importanweisungen den folgenden Code hinzu, um den Befehlshandler zu implementieren, und speichern Sie dann die Datei:
 
    ```typescript
@@ -157,7 +156,7 @@ Jeder neue Befehl muss in `ConversationBot`konfiguriert werden, wodurch der Unte
 2. Fügen Sie in Zeile 2 die folgende import-Anweisung hinzu:
 
     `import { ResetPasswordCommandHandler } from "../resetPasswordCommandHandler";`
-3. Fügen Sie in Zeile 20 dem `commands`-Array der `command`-Eigenschaft eine Anweisung zum Initialisieren des neuen Handlers hinzu. Das `new ResetPasswordCommandHandler().  The updated `command`-Objekt sollte folgendermaßen aussehen:
+3. Fügen Sie in Zeile 20 dem `commands`-Array der `command`-Eigenschaft eine Anweisung zum Initialisieren des neuen Handlers hinzu. `new ResetPasswordCommandHandler()`  Das aktualisierte `command`-Objekt sollte wie folgt aussehen:
 
    ```json
    command: {    enabled: true,    commands: [new HelloWorldCommandHandler(), new ResetPasswordCommandHandler()],  },
@@ -260,6 +259,7 @@ Wenn Ihre Entwicklungsumgebung den Entwicklungstunnel des Teams-Toolkits nicht u
                     echo "::set-teamsfx-env BOT_DOMAIN=${endpoint:8}"
                 fi
      ```
+     
 ## Arbeit überprüfen
 
 Führen Sie Ihre App lokal aus, um die Funktionalität zu testen:
