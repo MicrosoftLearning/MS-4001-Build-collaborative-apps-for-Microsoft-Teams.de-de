@@ -102,7 +102,7 @@ Verwenden Sie als Nächstes das Teams-Toolkit, um die für die Nachrichtenerweit
 
 ## Aufgabe 5: Konfigurieren von Berechtigungen zum Abrufen von Microsoft Graph-Daten
 
-1. Melden Sie sich beim Azure-Portal bei [portal.azure.com](portal.azure.com) mit Ihrem **Microsoft 365**-Administratorkonto an.
+1. Melden Sie sich beim Azure-Portal bei [portal.azure.com](https://portal.azure.com) mit Ihrem **Microsoft 365**-Administratorkonto an.
 2. Navigieren Sie im linken Navigationsmenü zu **Microsoft Entra ID**.
 3. Navigieren Sie zu **Verwalten > App-Registrierungen > Alle Anwendungen**.
 4. Wählen Sie die App-Registrierung **ContactDetails** aus, die während der Bereitstellung erstellt wurde.
@@ -146,3 +146,5 @@ Zeigen Sie eine Vorschau Ihrer App im Teams-Client an, um die Funktionalität zu
 5. Wenn die Nachrichtenerweiterung im Teams-Client geladen wird, geben Sie einen Buchstaben ein, um Benutzer:innen anhand des Anzeigenamens zu suchen.  Wählen Sie ein Ergebnis aus, um eine Karte in die Unterhaltung einzufügen.
 
 Hinweis: Wenn die Nachrichtenerweiterung aus irgendeinem Grund nicht automatisch aufgerufen wird, können Sie darauf zugreifen, indem Sie „@Contact Details dev“ in die Befehlsleiste oben im Teams-Client oder im Bereich zum Verfassen von Nachrichten eingeben.  Sie können auch die Schaltfläche **Aktionen und Apps** im Bereich zum Verfassen von Nachrichten verwenden, um die App zu suchen.
+
+   ![Screenshot des Aufrufs der Messaging-Erweiterung](../../media/invoke-message-extension.png)

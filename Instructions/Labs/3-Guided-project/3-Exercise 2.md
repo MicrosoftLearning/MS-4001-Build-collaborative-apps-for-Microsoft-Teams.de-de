@@ -28,14 +28,16 @@ Registrieren Sie zunächst einen eingehenden Webhook.
 **Hinweis:** Wenn das Teams-Konto, das Sie für diese Übung verwenden, noch nicht über ein Team mit einem Kanal verfügt, erstellen Sie einen neuen Kanal, bevor Sie die folgenden Schritte ausführen.
 
 1. Navigieren Sie in Microsoft Teams zu einem Kanal, in dem Sie den Webhook konfigurieren können.
-2. Wählen Sie im Kanal das Menü **Weitere Optionen** und dann **Connectors** aus.  (Hinweis: Verwenden Sie das Menü innerhalb des Kanals, nicht das Menü aus der Kanalliste.)
+2. Wählen Sie im Kanal das Menü **Kanal verwalten** und dann im Bereich „Connectors“ die Option **Bearbeiten** aus.  
+
+   ![Screenshot des Aufrufens der Connectorbearbeitung](../../media/invoke-connector-edit.png)
 3. Suchen Sie nach `"webhook"`, und wählen Sie dann **Eingehender Webhook** aus.
 
    ![Screenshot von Webhook in der Suchleiste.](../../media/add-incoming-webhook.png)
 
 4. Wählen Sie **Hinzufügen** aus.
 5. Wählen Sie auf der Übersichtsseite die Option **Hinzufügen** aus.
-6. Wählen Sie im Kanal erneut das Menü **Weitere Optionen** und dann **Connectors** aus.
+6. Wählen Sie im Kanal erneut das Menü **Kanal verwalten** und dann im Abschnitt „Connectors“ die Option **Bearbeiten** aus.
 7. Wählen Sie neben **Eingehender Webhook** die Option **Konfigurieren** aus.
 8. Geben Sie für den Namen **Warnungen** ein.
 9. Klicken Sie auf **Erstellen**.  Lassen Sie dieses Fenster geöffnet, damit Sie die URL während der nächsten Aufgabe kopieren können.
