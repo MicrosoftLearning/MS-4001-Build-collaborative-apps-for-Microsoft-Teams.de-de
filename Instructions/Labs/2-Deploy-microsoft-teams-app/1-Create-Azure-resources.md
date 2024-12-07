@@ -2,7 +2,7 @@
 
 In dieser Übung werden Sie zunächst eine Teams-Registerkarten-App mithilfe des Teams-Toolkits für Visual Studio Code erstellen und bereitstellen. In einer späteren Übung richten Sie die App so ein, dass sie in Azure gehostet wird.
 
-**Hinweis:**  Für die Übungen in diesem Trainingsmodul wird das Teams-Toolkit V5.6.0 verwendet. Bei den folgenden Schritten wird davon ausgegangen, dass die Teams-Toolkit-Erweiterung installiert ist.
+**Hinweis:**  Für die Übungen in diesem Trainingsmodul wird das Teams-Toolkit V5.8.0 verwendet. Bei den folgenden Schritten wird davon ausgegangen, dass die Teams-Toolkit-Erweiterung installiert ist.
 
 ## Aufgabe 1: Erstellen einer neuen Registerkarten-App
 
@@ -34,6 +34,8 @@ In dieser Übung werden Sie zunächst eine Teams-Registerkarten-App mithilfe des
 
 1. Wenn die App erfolgreich getestet wird, beenden Sie die lokale Ausführung der App.
 
+    ![Screenhot der Debugging-Registerkarten-App](../../media/launch-debug-tab-app.png)
+
 1. Um die Debuggingsitzung zu beenden und die Ausführung der App zu stoppen, können Sie entweder den Browser schließen, **Ausführen > Debuggen beenden** auswählen oder **UMSCHALT+F5** drücken.
 
 ## Aufgabe 2: Anmelden bei Azure im Teams-Toolkit
@@ -49,6 +51,7 @@ Melden Sie sich mit dem Konto Ihres **Azure-Abonnements** bei Azure an.
 1. Wählen Sie im angezeigten Dialogfeld die Option **Anmelden** aus.
 
     ![Screenshot: Dialogfeld zur Bestätigung der Anmeldung bei Azure.](../../media/sign-into-azure-alert.png)
+    ![Screenshot der Anmeldung bei Azure](../../media/signed-into-azure.png)
 
 ## Aufgabe 3: Bereitstellen der Ressourcen
 
@@ -72,6 +75,7 @@ Jetzt können Sie die Ressourcen bereitstellen, die für Ihre Teams-Registerkart
 
 1. Die Bereitstellung beginnt für alle Ressourcen, die Sie zum Hosten der Teams-Registerkarten-App in Azure benötigen. Die Bereitstellung kann eine Weile dauern.
 
+    ![Screenshot des Erfolgs der Bereitstellung.](../../media/provision-success.png)
 Sie haben nun erfolgreich alle Ressourcen bereitgestellt, die Sie zum Hosten der Teams-Registerkarten-App benötigen.
 
 Als Nächstes stellen Sie den Quellcode Ihrer App für diese Ressourcen bereit.

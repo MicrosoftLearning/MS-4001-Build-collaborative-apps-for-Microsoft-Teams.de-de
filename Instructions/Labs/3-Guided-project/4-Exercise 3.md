@@ -33,7 +33,7 @@ Sie müssen die folgenden Aufgaben ausführen, um die Übung abzuschließen:
 
 Eine Benachrichtigung wird angezeigt, wenn alle Ordner und Dateien erfolgreich erstellt wurden, und eine neue Instanz von Visual Studio Code öffnet den neuen Projektordner.
 
-Im Bereich **EXPLORER** enthält der Ordner *src* den Quellcode für Ihre App. Dateien außerhalb des Ordners *src* sind serverbezogen, z. B. der Bot.
+Im Bereich **EXPLORER** enthält der Ordner *src* den Quellcode für Ihre App. Dateien außerhalb des Ordners *src* sind serverbezogen, z. B. der Bot. ![Screenshot der Dateien im Explorer](../../media/explorer-tab-file.png)
 
 ## Aufgabe 2: Aktualisieren der App, um das Gebietsschema des Benutzers oder der Benutzerin abzurufen und anzuzeigen
 
@@ -91,6 +91,6 @@ Führen Sie Ihre App im Debugmodus aus, um die Funktionalität zu testen.
    - Navigieren Sie in Visual Studio Code zum Menü **Ausführen und Debuggen**.  Wählen Sie **Debuggen in Teams** mit der von Ihnen gewünschten Browseroption und dann die Schaltfläche **Debuggen starten** aus.
    - Öffnen Sie im Abschnitt **UMGEBUNG** des Teams-Toolkits den Ordner *local*, und wählen Sie dann den gewünschten Browser aus.
 
-3. Nachdem Visual Studio Code einige Überprüfungen durchgeführt hat, deren Aktionen auf der Registerkarte **Konsole** angezeigt werden, wird ein neues Browserfenster geöffnet. Wählen Sie im Dialogfeld **UserInfoApplocal** die Schaltfläche **Hinzufügen**, um die App in Teams zur Vorschau zu installieren.
+3. Nachdem Visual Studio Code einige Überprüfungen durchgeführt hat, deren Aktionen auf der Registerkarte **Konsole** angezeigt werden, wird ein neues Browserfenster geöffnet. Wählen Sie im Dialogfeld **UserInfoApplocal** die Schaltfläche **Hinzufügen**, um die App in Teams zur Vorschau zu installieren. ![Screenshot des Hinzufügens von UserInfoApplocal](../../media/add-userinfoapplocal.png)
 
-Die App kann jetzt auf der Seitenleiste angezeigt werden. Die App ist mit zwei Registerkarten vorkonfiguriert: **Persönliche Registerkarte** und **Info**. Stellen Sie sicher, dass der Gebietsschemacode auf der Registerkarte angezeigt wird.
+Die App kann jetzt auf der Seitenleiste angezeigt werden. Die App ist mit zwei Registerkarten vorkonfiguriert: **Persönliche Registerkarte** und **Info**. Stellen Sie sicher, dass der Gebietsschemacode auf der Registerkarte angezeigt wird. ![Screenshot von UserInfoApplocal im Web](../../media/userinfoapplocal-run.png)
